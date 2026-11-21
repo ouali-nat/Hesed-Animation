@@ -1,4 +1,4 @@
-# Eneles Animation
+# Hesed Animation
 
 Écris du JSON, vois ton animation en direct. Tout tourne dans le navigateur, sans dépendance ni installation.
 
@@ -18,7 +18,7 @@ Le fichier `studio-3d.html` intègre le démonstrateur hébergé de **TripoSG** 
 - Générer la forme 3D, puis appliquer une texture.
 - Télécharger le modèle au format GLB.
 
-Le calcul IA est exécuté par l'espace externe Hugging Face, pas dans le navigateur d'Eneles. Les images importées dans le cadre de cette génération sont transmises à ce service. La disponibilité et les temps d'attente dépendent de l'hébergeur.
+Le calcul IA est exécuté par l'espace externe Hugging Face, pas dans le navigateur d'Hesed. Les images importées dans le cadre de cette génération sont transmises à ce service. La disponibilité et les temps d'attente dépendent de l'hébergeur.
 
 - [Code source TripoSG](https://github.com/VAST-AI-Research/TripoSG)
 - [Démonstrateur TripoSG](https://vast-ai-triposg.hf.space/)

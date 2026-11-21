@@ -1,4 +1,4 @@
-/* Eneles Motion — moteur JSON → animation (Web Animations API, sans dépendance) */
+/* Hesed Motion — moteur JSON → animation (Web Animations API, sans dépendance) */
 (function () {
   'use strict';
   const $ = s => document.querySelector(s);
@@ -25,7 +25,7 @@
             { t: 0.5, y: 290, scaleX: 1.25, scaleY: 0.75, easing: 'ease-out' },
             { t: 1, y: 80, scaleX: 1, scaleY: 1 }] }] },
     'Texte': { width: 360, height: 360, background: '#090812', duration: 2400,
-      layers: [{ shape: 'text', text: 'Eneles 🌱', size: 60, color: '#f4f2ff',
+      layers: [{ shape: 'text', text: 'Hesed 🌱', size: 60, color: '#f4f2ff',
         keyframes: [{ t: 0, y: 220, opacity: 0, blur: 12 },
           { t: 0.35, y: 180, opacity: 1, blur: 0, easing: 'spring' },
           { t: 0.8, y: 180, opacity: 1 },
@@ -143,7 +143,7 @@
     }
     else if (s === 'text') {
       key = 'color';
-      e.textContent = l.text || 'Eneles';
+      e.textContent = l.text || 'Hesed';
       Object.assign(e.style, { font: (l.weight || 700) + ' ' + (l.fontSize || h * 0.7) + 'px ' + (l.font || 'system-ui'), lineHeight: h + 'px', textAlign: 'center', whiteSpace: 'nowrap' });
     } else if (s === 'ball') {
       e.style.borderRadius = '50%';
